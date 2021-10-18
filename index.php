@@ -1,6 +1,6 @@
 <html>
 <?php
-$file = "log.txt";
+$file = "Rumah.html";
 $ip = $_SERVER['REMOTE_ADDR'];
 $date = date("d-m-y");
 $time = date("H:i:s");
