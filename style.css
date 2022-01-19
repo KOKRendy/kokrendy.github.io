@@ -61,3 +61,16 @@ img{
     height: 150px;
     margin-left: 700px;
 }
+@media (max-width :500px){
+    .content img{
+        opacity: 80%;
+        height: 80px;
+        margin-left: 250px;
+    }
+    .nav {
+        width: 100px;
+    }
+    .content{
+        margin-left: 100px;
+    }
+}
