@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000; /* so the menu or its navicon stays above all content */
+    background: #191818;
+    overflow-y: auto;
+}
+div h2{
+    text-align: center;
+    color: aliceblue;
+}
+div ul li{
+    text-align: center;
+}
+
+div ul li a {
+    color: #ccc;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.title{
+    font-size: smaller;
+    margin-top: 25px;
+    margin-left: 100px;
+    text-align: center;
+    border-bottom: solid #eee 1px;
+}
+.title h2{
+    color: #ccc;
+}
+.title h1{
+    margin-bottom: 10px;
+}
+.title h2{
+    margin-bottom: 10px;
+}
+.content{
+    margin-left: 250px;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+    color: #888;
+}
+.content h2{
+    margin: 50px 500px 20px 0;
+    font-weight: 300;
+    color: #888;
+}
+img{
+    margin-top: 40px;
+    height: 150px;
+    margin-left: 700px;
+}
