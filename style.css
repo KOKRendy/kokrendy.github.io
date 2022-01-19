@@ -61,7 +61,7 @@ img{
     height: 150px;
     margin-left: 700px;
 }
-@media (max-width :480px){
+@media screen and (max-width :576px){
     .content img{
         opacity: 80%;
         height: 80px;
@@ -74,31 +74,3 @@ img{
         margin-left: 100px;
     }
 }
-@media (max-width :370px){
-    .content img{
-        opacity: 80%;
-        height: 80px;
-        margin-left: 250px;
-    }
-    .nav {
-        width: 100px;
-    }
-    .content{
-        margin-left: 100px;
-    }
-}
-@media (max-width :720px){
-    .content img{
-        opacity: 80%;
-        height: 80px;
-        margin-left: 250px;
-    }
-    .nav {
-        width: 100px;
-    }
-    .content{
-        margin-left: 100px;
-    }
-}
-
-
