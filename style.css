@@ -61,7 +61,7 @@ img{
     height: 150px;
     margin-left: 700px;
 }
-@media (max-width :500px){
+@media (max-width :480px){
     .content img{
         opacity: 80%;
         height: 80px;
