@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+nav{
+    height: 80px;
+    border: 1px solid;
+}
+.cuy1{
+    padding-top: 10px ;
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu{
+    float: right;
+}
+.menu ul li{
+    padding: 20px 5px;
+    width: 120px;
+    justify-content: space-around;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.menu ul li a{
+    transition: all 0.2s ease 0s;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    color: rgb(99, 99, 99);
+    background-color:antiquewhite;
+}
+
+.content{
+    display: flex;
+}
+.content img {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.tentangsaya{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.content h2{
+    color: #364f6b;
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    margin-left: 20px;
+}
+.content p{
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    margin-top: 25px;
+    float: left;
+}
+.content2{
+    color: #364f6b;
+    display: flex;
+}
+.content2 h2{
+    font-weight: 800;
+    margin-left: 20px;
+}
+.content2 p{
+    font-family: 'comic sans ms';
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pendidikan{
+    font-family: 'comic sans ms';
+    margin-top: 300px;
+}
+th {
+    color:#FFFFFF;
+    background-color: #336699;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    font-size: 9pt;
+}
+td{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    color: red;
+    background-color: #E6E6FA;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    font-size: 9pt;
+}
+
+.content3 table caption{
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+.content4{
+    display: flex;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+.aktifitas h2{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.aktifitas p{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 100px;
+}
+.aktifitas img{
+    margin-top: 100px;
+    float: right;
+}
+.content5{
+    display: flex;
+}
+.content5 .hobby img{
+    height: 500px;
+    float: left;
+}
+
+.content5 .hobby p{
+    margin-left: 525px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+.content5 .hobby h4{
+    margin-left: 550px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+.content5 .hobby h2{
+    margin-left: 530px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}

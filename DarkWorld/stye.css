@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgb(125, 236, 221);
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+body{
+    background-color:rgb(207, 145, 145);
+}
+img{
+    margin-left: 25%;
+    height: 100px;
+    width: 100px;
+}
